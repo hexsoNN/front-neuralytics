@@ -23,13 +23,22 @@ export default {
     return {
       tabs: [
         {
+          label: "Rooms",
+          name: "rooms"
+        },
+        {
           label: "Dashboard",
           name: "dashboard"
+        },
+        {
+          label: "New Entity",
+          name: "newentity"
         },
         {
           label: "About",
           name: "about"
         }
+       
       ]
     }
   },
